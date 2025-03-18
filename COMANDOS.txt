@@ -1,0 +1,8 @@
+npx create-expo-app@latest
+
+cd my-app
+npm start
+
+Tecle W para abrir na Web
+
+npm run reset-project

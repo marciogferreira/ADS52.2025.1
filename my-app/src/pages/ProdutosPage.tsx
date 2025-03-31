@@ -1,6 +1,6 @@
 import { Button, Text, View } from "react-native";
 
-export default function ProdutosPage(props) {
+export default function ProdutosPage(props: any) {
     return (
         <View>
             <Text>ProdutosPage</Text>

@@ -1,4 +1,4 @@
-import { NavigationIndependentTree } from "@react-navigation/native"
+import { NavigationContainer, NavigationIndependentTree } from "@react-navigation/native"
 import { createDrawerNavigator } from "@react-navigation/drawer";
 
 import HomePage from "../pages/HomePage";

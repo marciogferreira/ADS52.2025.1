@@ -1,7 +1,6 @@
 import { Button, Text, View } from "react-native";
 
-export default function HomePage(props) {
-
+export default function HomePage(props: any) {
     return (
         <View>
             <Text>Página Inicial</Text>

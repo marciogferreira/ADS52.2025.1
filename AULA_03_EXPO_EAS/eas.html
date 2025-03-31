@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao Expo EAS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h2>O que é Expo EAS?</h2>
+                <p>Expo Application Services (EAS) é a solução da Expo para build, atualização e deploy de apps.</p>
+            </section>
+            <section>
+                <h2>Criando uma Conta no Expo.dev</h2>
+                <small>
+                <ul>
+                    <li><strong>Expo.dev</strong> - Acesse o site expo.dev e crie sua conta.</li>
+                    <li><strong>Subindo seu App</strong> - Instale o EAS no seu PC: npm install -g eas-cli.</li>
+                    <li><strong>EAS Login</strong> - Execute o comando no seu terminal: npx eas login</li>
+                    <li><strong>Credenciais</strong> - Informe as mesmas credenciais do seu Expo.dev</li>
+                    <li><strong>Subindo App</strong> - Execute no CMD o comando npx eas init</li>
+                    <li><strong>Subindo Atualizações do App</strong> - Execute no CMD o comando npx eas update --branch preview --message "Comentário"</li>
+                </ul>
+            </small>
+            </section>
+            <section>
+                <h2>Principais Serviços do EAS</h2>
+                <ul>
+                    <li><strong>EAS Build</strong> - Compila apps para Android e iOS na nuvem.</li>
+                    <li><strong>EAS Submit</strong> - Facilita o envio de apps para as lojas.</li>
+                    <li><strong>EAS Update</strong> - Permite atualizações OTA (Over-The-Air).</li>
+                    <li><strong>EAS Metadata</strong> - Gerencia metadados das lojas.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Vantagens do EAS</h2>
+                <ul>
+                    <li>Elimina necessidade de Xcode ou Android Studio.</li>
+                    <li>Permite builds para múltiplas plataformas simultaneamente.</li>
+                    <li>Reduz o tempo de entrega de novas versões.</li>
+                    <li>Facilita atualizações sem precisar de uma nova build.</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Como Começar?</h2>
+                <pre><code>npx expo install -g eas-cli
+    eas build:configure
+    eas build -p android</code></pre>
+                <p>Comandos básicos para configurar e iniciar um build.</p>
+            </section>
+            <section>
+                <h2>Conclusão</h2>
+                <p>Expo EAS simplifica o ciclo de vida de um app React Native, tornando o desenvolvimento e deploy mais rápidos e eficientes.</p>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.js"></script>
+    <script>
+        Reveal.initialize();
+    </script>
+</body>
+</html>

@@ -6,3 +6,10 @@ npm start
 Tecle W para abrir na Web
 
 npm run reset-project
+
+
+------------- Subindo pro Expo.dev
+
+npx eas login
+npx eas init
+npx eas update --branch preview --message "Comentário"
